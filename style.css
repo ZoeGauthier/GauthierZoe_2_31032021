@@ -1,0 +1,21 @@
+/* Polices */
+
+@font-face {
+    font-family: "Raleway";
+    src: url("polices/Raleway-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "Raleway-Thin";
+    src: url("polices/Raleway-Thin.ttf");
+  }
+  
+  @font-face {
+    font-family: "Raleway-Bold";
+    src: url("polices/Raleway-Bold.ttf");
+  }
+  
+  * {
+    font-family: "Raleway";
+  }
+  
