@@ -339,3 +339,110 @@
     margin-right: 10px;
   }
   
+  /* Les plus populaires */
+  
+  .plus_populaires {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .les_plus_populaires {
+    display: flex;
+  }
+  
+  .logo_plus_populaire {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-left: auto;
+  }
+  
+  .populaire_chambre_image {
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .liste_plus_populaire a {
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+    height: 150px;
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 25px;
+    padding: 5px;
+    box-shadow: -1px 2px 27px 0px rgba(189, 189, 189, 0.65);
+  }
+  
+  .plus_populaires p {
+    font-size: 1.6em;
+    font-family: "Raleway-Bold";
+  }
+  
+  .plus_populaires h2 {
+    font-size: 0.8em;
+  }
+  
+  .plus_populaires h3 {
+    font-size: 0.6em;
+    font-family: "Raleway-Thin";
+  }
+  
+  .appreciation_plus_populaire {
+    width: 70px;
+    height: 12px;
+    margin-top: 60px;
+    margin-left: 28px;
+  }
+  
+  .liste_plus_populaire {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+  }
+  
+  /* Activités */
+  
+  .activites {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .activities_liste {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .activite_image_large,
+  .activite_image_medium,
+  .activite_image_small {
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .activites p {
+    font-size: 1.6em;
+    font-family: "Raleway-Bold";
+  }
+  
+  .activites h2 {
+    font-size: 1em;
+    margin-left: 20px;
+  }
+  
+  .activites a {
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    height: fit-content;
+    background-color: #f2f2f2;
+  }
+  
+  
