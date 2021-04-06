@@ -80,8 +80,8 @@
     color: #0065fc;
   }
   
-  .hebergement_liste,
-  .activites_liste {
+  .hebergement_lien,
+  .activites_lien {
     text-decoration: none;
     color: black;
     width: 100%;
@@ -106,5 +106,236 @@
     text-decoration: none;
     font-family: "Raleway-Bold";
     margin-left: 100px;
+  }
+  
+  /* Hebergements */
+  
+  .hebergement {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 0;
+  }
+  
+  .hebergement_lien {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 810px;
+    background-color: #fff;
+  }
+  
+  .hebergement_lien a {
+    background-color: #fff;
+    box-shadow: -1px 2px 27px 0px rgba(189, 189, 189, 0.65);
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .hebergement_lien a:hover {
+    box-shadow: none;
+  }
+  
+  .chambre_image {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .hebergement_liste p {
+    font-size: 1.5em;
+    font-family: "Raleway-Bold";
+    margin-left: 15px;
+  }
+  
+  .hebergement_liste h2 {
+    font-size: 1em;
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+  
+  .hebergement_liste h3 {
+    font-size: 0.7em;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  
+  .appreciation {
+    width: 70px;
+    height: 12px;
+    margin-top: 5px;
+    margin-left: 28px;
+    margin-bottom: 5px;
+  }
+  
+  .hebergement_liste a {
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+  }
+  
+  .hebergement_liste p {
+    font-family: "Raleway-Bold";
+    margin-left: 10px;
+  }
+  
+  /* Barre de recherche */
+  
+  .barre_recherche {
+    display: flex;
+    height: 45px;
+    border: solid 1px #f2f2f2;
+    border-radius: 15px;
+    width: fit-content;
+  }
+  
+  .ville_texte {
+    border: none;
+    padding-left: 10px;
+    font-size: 1em;
+  }
+  
+  .localisation_button {
+    width: 45px;
+    border: none;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    border: solid 2px #f2f2f2;
+    background: url("images/logo/location_logo.png") no-repeat center;
+    background-color: #f2f2f2;
+    font-size: 0;
+  }
+  
+  .champ_recherche {
+    width: 45px;
+    background-color: #0065fc;
+    border-radius: 12px;
+    border: none;
+    font-size: 0;
+    background: no-repeat url("images/logo/search_logo.PNG") center;
+    background-color: #0065fc;
+    background-size: 18px;
+  }
+  
+  /* Filtres */
+  
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearence: none;
+  }
+  
+  input[type="checkbox"] {
+    border-radius: 30px;
+    height: 41px;
+    width: 41px;
+    background: #deebff;
+    border: 1px solid #deebff;
+    outline: none;
+    margin: 0;
+    align-self: flex-end;
+  }
+  
+  .economique,
+  .familial,
+  .romantique,
+  .animaux {
+    display: flex;
+    border: solid 1px #d9d9d9;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    border-left: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+  
+  .familial:checked {
+    flex-direction: row-reverse;
+  }
+  
+  label {
+    align-self: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .filtres_liste {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .filtres {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #romantique {
+    background: url("images/logo/romantic_logo.PNG") no-repeat center;
+    background-color: #deebff;
+  }
+  
+  #familal {
+    background: url("images/logo/familial_logo.PNG") no-repeat center;
+    background-color: #deebff;
+  }
+  
+  #economique {
+    background: url("images/logo/cash_logo.PNG") no-repeat center;
+    background-color: #deebff;
+  }
+  
+  #animaux {
+    background: url("images/logo/animals_logo.PNG") no-repeat center;
+    background-color: #deebff;
+  }
+  
+  #economique:active,
+  #economique:focus,
+  #familial:active,
+  #familial:focus,
+  #romantique:active,
+  #romantique:focus,
+  #animaux:active,
+  #animaux:focus,
+  .localisation_bouton:active,
+  .localisation_bouton:focus,
+  .champ_recherche:active,
+  .champ_recherche:focus,
+  .ville_texte:active,
+  .ville_texte:focus {
+    outline: none;
+  }
+  
+  .economique:hover,
+  .familial:hover,
+  .animaux:hover,
+  .romantique:hover {
+    flex-direction: row-reverse;
+    padding-right: 0;
+    padding-left: 10px;
+    transition-duration: 1s;
+  }
+  
+  .filtres p {
+    font-family: "Raleway-Bold";
+  }
+  
+  .ville_info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info_logo {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
   }
   
