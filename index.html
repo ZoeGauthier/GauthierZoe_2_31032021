@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<!-- Corps de tête -->
+
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
@@ -12,14 +14,240 @@
 <!-- Navigation -->
 
 <nav>
-    <ul class="top_bar">
-      <li><img class="logo" src="images/logo/Reservia3x.png" alt="logo_reservia"></li>
-      <li><a href="" class="register_2">S'inscrire</a></li>
+    <ul class="navigation">
+      <li><img class="logo" src="images/logo/Reservia@3x.png" alt="logo_reservia"></li>
+      <li><a href="" class="inscription_2">S'inscrire</a></li>
     </ul>
     <ul class="liens">
-      <li id="register"><a href="" class="register"> S'inscrire</a></li>
-      <li id="hebergement"><a href="#ancre-1" class="hebergement_link">Hébergements</a></li>
-      <li id="activities"><a href="#ancre-2" class="activities_link">Activités</a></li>
+      <li id="inscription"><a href="" class="inscription"> S'inscrire</a></li>
+      <li id="hebergement"><a href="#ancre-1" class="hebergement_lien">Hébergements</a></li>
+      <li id="activites"><a href="#ancre-2" class="activites_lien">Activités</a></li>
     </ul>
 
   </nav>
+
+  <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+  <h3>En plein centre ville ou en pleine nature</h3>
+
+  <!-- Barre de recherche-->
+
+  <form class="ville">
+    <div class="barre_recherche">
+      <input type="button" class="localisation_button" value="localiser">
+      <input type="text" class="ville_texte">
+      <input type="submit" value="Rechercher" class="bouton_recherche">
+    </div>
+
+    <!-- Filtres de recherche -->
+
+    <div class="filtres">
+      <p>Filtres</p>
+
+      <div class="filtres_list">
+        <div class="economique">
+          <input type="checkbox" id="economique" name="economique">
+          <label for="economique">Économique</label>
+        </div>
+
+        <div class="familial">
+          <input type="checkbox" id="familial" name="familial">
+          <label for="famillial">Familial</label>
+        </div>
+
+        <div class="romantique">
+          <input type="checkbox" id="romantique" name="romantique">
+          <label for="romantique">Romantique</label>
+        </div>
+
+        <div class="animaux">
+          <input type="checkbox" id="animaux" name="animaux">
+          <label for="animaux">Animaux autorisés</label>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="ville_info">
+    <img class="logo_info" src="images/logo/icône_info.png" alt="logo_info">
+    <p>Plus de 500 logements sont disponible dans cette ville</p>
+  </div>
+
+  <!--Hébergements-->
+
+  <section class="hebergement">
+    <span id="ancre-"></span>
+
+    <div class="liste_hebergement">
+
+      <p>Hébergements à Marseille</p>
+
+      <a href="">
+        <img class="image_chambre" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+          alt="Photographie de l'auberge de la Cannebière à Marseille">
+        <h2>Auberge la Cannebière</h2>
+        <h3>Nuit à partir de 25€</h3><img class="appreciation" src="images/4_etoiles.PNG" alt="logo_appreciation">
+      </a>
+
+      <a href="">
+        <img class="image_chambre" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+          alt="Photographie de l'hôtel du port à Marseille">
+        <h2>Hôtel du port</h2>
+        <h3>Nuit à partir de 52€</h3><img class="appreciation" src="images/5_etoiles.PNG" alt="logo_appreciation">
+      </a>
+
+      <a href="">
+        <img class="image_chambre" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+          alt="Photographie de l'hôtel des mouettes à Marseille">
+        <h2>Hôtel des mouettes</h2>
+        <h3>Nuit à partir de 76€</h3><img class="appréciation" src="images/4_etoiles.PNG" alt="logo_appreciation">
+      </a>
+
+      <a href="">
+        <img class="image_chambre" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+          alt="Photographie de l'hôtel de la mer à Marseille">
+        <h2>Hôtel de la mer</h2>
+        <h3>Nuit à partir de 46€</h3><img class="appreciation" src="images/3_etoiles.png" alt="logo_appréciation">
+      </a>
+
+      <a href="">
+        <img class="image_chambre" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+          alt="Photographie de l'auberge Le Panier à Marseille">
+        <h2>Auberge Le Panier</h2>
+        <h3>Nuità partir de 23€</h3><img class="appreciation" src="images/4_etoiles.PNG" alt="logo_appreciation">
+      </a>
+
+      <a href="">
+        <img class="image_chambre" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+          alt="Photographie de l'hôtel chez Amina à Marseille">
+        <h2>Hôtel chez Amina</h2>
+        <h3>Nuit à partir de 96€</h3><img class="appreciation" src="images/5_etoiles.PNG" alt="logo_appreciation">
+      </a>
+
+      <h4>Afficher plus</h4>
+    </div>
+
+
+    <!-- Les plus populaires -->
+
+    <div class="plus_populaires">
+      <div class="les_plus_populaires">
+        <p>Les plus populaires</p>
+        <img src="images/logo/stats_logo.PNG" alt="logo" class="logo_plus_populaire">
+      </div>
+
+      <div class="liste_plus_populaire">
+        <a href="">
+          <img class="populaire_chambre_image" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+            alt="Photographie de l'hôtel Le soleil du matin">
+          <div class="description">
+            <h2>Hôtel Le soleil du matin</h2>
+            <h3>Nuit à partir de 128€</h3><img class="appreciation_plus_populaire" src="images/5_etoiles.PNG"
+              alt="logo_appreciation">
+          </div>
+        </a>
+
+        <a href="">
+          <img class="populaire_chambre_image" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+            alt="Photographie de la chambre d'hôte Au coeur de l'eau">
+          <div class="description">
+            <h2>Au coeur de l'eau Chambre d'hôte</h2>
+            <h3>Nuit à partir de 71€</h3><img class="appreciation_plus_populaire" src="images/4_etoiles.PNG"
+              alt="logo_appreciation">
+          </div>
+        </a>
+
+        <a href="">
+          <img class="populaire_chambre_image" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+            alt="Photographie de l'hôtel Tout bleu et blanc">
+          <div class="description">
+            <h2>Hôtel Tout bleu et Blanc</h2>
+            <h3>Nuit à partir de 68€</h3><img class="appreciation_plus_populaire" src="images/4_etoiles.PNG"
+              alt="logo_appreciation">
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Activitées -->
+
+  <section class="activites">
+    <span id="ancre-2"></span>
+    <p>Activités à Marseille</p>
+    <div class="activites_liste">
+
+      <a href="">
+        <img class="activites_image_large" src="images/activites/3_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+          alt="Photographie du vieux port de Marseille">
+        <h2>Vieux Port</h2>
+      </a>
+
+      <a href="">
+        <img class="activites_image_medium" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+          alt="Photographie du Fort de Pomègues">
+        <h2>Fort de Pomègues</h2>
+      </a>
+
+      <a href="">
+        <img class="activites_image_small" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+          alt="Photographie des îles di frioul">
+        <h2>Îles du Frioul</h2>
+      </a>
+
+      <a href="">
+        <img class="activites_image_large" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+          alt="Photographie du parc national des Calanques">
+        <h2>Parc National des Calanques</h2>
+      </a>
+
+      <a href="">
+        <img class="activites_image_small" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+          alt="Photographie de Notre-dame-de-la-Garde">
+        <h2>Notre-dame-de-la-Garde</h2>
+      </a>
+
+      <a href="">
+        <img class="activites_image_medium" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+          alt="Photographie du parc longchamp">
+        <h2>Parc Longchamp</h2>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Pied de page -->
+
+  <footer>
+    <div class="a_propos">
+      <h1>A propos</h1>
+      <ul>
+        <li>Fonctionnement du site</li>
+        <li>Conditions générales de vente</li>
+        <li>Données et confidentialité</li>
+      </ul>
+    </div>
+
+    <!--Nos Hébergements-->
+
+    <div class="nos_hebergements">
+      <h1>Nos hébergements</h1>
+      <ul>
+        <li>Charte qualité</li>
+        <li>Soumettre votre hôtel</li>
+      </ul>
+    </div>
+
+    <!--Assistance-->
+
+    <div class="assistance">
+      <h1>Assistance</h1>
+      <ul>
+        <li>Centre d'aide</li>
+        <li>Nous contacter</li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>
