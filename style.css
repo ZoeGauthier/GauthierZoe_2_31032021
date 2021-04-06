@@ -16,5 +16,95 @@
   
   * {
     font-family: "Raleway";
+
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .liens {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    align-items: baseline;
+    padding-inline-start: 0;
+    margin-top: 0;
+  }
+  
+  .logo {
+    width: 100px;
+    border: none;
+  }
+  
+  .ville,
+  .info_ville,
+  .hebergement,
+  h2,
+  h3 {
+    padding-left: 20px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #hebergement,
+  #activites {
+    width: 50%;
+    border-bottom: solid 3px #f2f2f2;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .navigation {
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .navigation li {
+    align-self: center;
+  }
+  .navigation a:hover,
+  #hebergement:hover,
+  #activites:hover {
+    border-color: #0065fc;
+    color: #0065fc;
+  }
+  
+  .hebergement_liste,
+  .activites_liste {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: 100px;
+  }
+  
+  .inscription {
+    color: #0065fc;
+    border-bottom: none;
+    width: auto;
+    text-decoration: none;
+    font-family: "Raleway-Bold";
+    display: none;
+    align-self: baseline;
+  }
+  
+  .inscription_2 {
+    color: #0065fc;
+    border-bottom: none;
+    width: auto;
+    text-decoration: none;
+    font-family: "Raleway-Bold";
+    margin-left: 100px;
   }
   
