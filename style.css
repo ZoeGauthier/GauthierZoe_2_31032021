@@ -198,13 +198,13 @@
     font-size: 1em;
   }
   
-  .localisation_button {
+  .localisation_bouton {
     width: 45px;
     border: none;
     border-bottom-left-radius: 12px;
     border-top-left-radius: 12px;
     border: solid 2px #f2f2f2;
-    background: url("images/logo/location_logo.png") no-repeat center;
+    background: url("images/logo/localisation_logo.png") no-repeat center;
     background-color: #f2f2f2;
     font-size: 0;
   }
@@ -215,7 +215,7 @@
     border-radius: 12px;
     border: none;
     font-size: 0;
-    background: no-repeat url("images/logo/search_logo.PNG") center;
+    background: no-repeat url("images/logo/recherche_logo.PNG") center;
     background-color: #0065fc;
     background-size: 18px;
   }
@@ -278,7 +278,7 @@
   }
   
   #romantique {
-    background: url("images/logo/romantic_logo.PNG") no-repeat center;
+    background: url("images/logo/romantique_logo.PNG") no-repeat center;
     background-color: #deebff;
   }
   
@@ -288,12 +288,12 @@
   }
   
   #economique {
-    background: url("images/logo/cash_logo.PNG") no-repeat center;
+    background: url("images/logo/economique_logo.PNG") no-repeat center;
     background-color: #deebff;
   }
   
   #animaux {
-    background: url("images/logo/animals_logo.PNG") no-repeat center;
+    background: url("images/logo/animaux_logo.PNG") no-repeat center;
     background-color: #deebff;
   }
   
@@ -445,4 +445,39 @@
     background-color: #f2f2f2;
   }
   
+  /* Pied de page */
+  
+  footer h1 {
+    font-size: 1.1em;
+    font-family: "Raleway-Bold";
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-left: 40px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: black;
+  }
+  footer ul {
+    padding-inline-start: 0;
+  }
+  
+  footer li {
+    list-style-type: none;
+    margin-bottom: 15px;
+  }
+  
+  footer div {
+    margin-right: 100px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
   
