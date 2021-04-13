@@ -19,7 +19,7 @@
   font-family: "Raleway";
 }
 
-/* Téléphone */
+/* Ecrans téléphone */
 
 img {
   object-fit: cover;
@@ -102,7 +102,7 @@ body {
 
 .liens a:hover,
 #hebergement:hover,
-#activities:hover {
+#activites:hover {
   border-color: #0065fc;
   color: #0065fc;
 }
@@ -258,12 +258,6 @@ body {
 }
 
 /* Filtres */
-
-bouton {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearence: none;
-}
 
 button {
   border-radius: 30px;
