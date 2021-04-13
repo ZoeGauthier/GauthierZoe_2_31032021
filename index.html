@@ -7,27 +7,24 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <script src="https://kit.fontawesome.com/5da6fe0c36.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ee5feef600.js" crossorigin="anonymous"></script>
   <title>Reservia</title>
 </head>
 <body>
   <header>
 
-    <div class="logo">
-      <img src="images/logo/Reservia@3x.png" alt="logo_reservia">
-      <a href="" class="inscription_2">S'inscrire</a>
-    </div>
-  
 <!-- Navigation -->
 
-    <nav>
-      <ul class="liens">
-        <li id="inscription"><a href="" class="inscription"> S'inscrire</a></li>
-        <li id="hebergement"><a href="#ancre-1" class="hebergement_lien">Hébergements</a></li>
-        <li id="activites"><a href="#ancre-2" class="activites_lien">Activités</a></li>
-      </ul>
+<nav>
 
-    </nav>
+  <ul class="liens">
+    <li id="reservia"><a href="index.html" class="reservia"><img class="logo" src="images/logo/Reservia@3x.png"
+          alt="logo_reservia"></a></li>
+    <li id="inscription"><a href="" class="inscription"> S'inscrire</a></li>
+    <li id="hebergement"><a href="#ancre-1" class="hebergement_lien">Hébergements</a></li>
+    <li id="activites"><a href="#ancre-2" class="activites_lien">Activités</a></li>
+  </ul>
+</nav>
 
     </header>
 
@@ -40,9 +37,9 @@
 
   <form class="ville">
     <div class="barre_recherche">
-      <input type="button" class="localisation_bouton" value="localiser">
-      <input type="text" class="ville_texte">
-      <input type="submit" value="Rechercher" class="champ_recherche">
+      <button class="localisation_bouton"><i class="fas fa-map-marker-alt"></i></button>
+      <input type="text" class="recherche_ville">
+      <input type="submit" value="Rechercher" class="barre_recherche">
     </div>
 
     <!-- Filtres de recherche -->
@@ -52,29 +49,30 @@
 
       <div class="filtres_liste">
         <div class="economique">
-          <input type="checkbox" id="economique" name="economique">
-          <label for="economique">Économique</label>
+          <button><i class="fas fa-money-bill-wave fa-lg"></i></button>
+          <label>Économique</label>
         </div>
 
         <div class="familial">
-          <input type="checkbox" id="familial" name="familial">
-          <label for="familial">Familial</label>
+          <button><i class="fas fa-child fa-lg"></i></button>
+          <label>Familial</label>
         </div>
 
         <div class="romantique">
-          <input type="checkbox" id="romantique" name="romantique">
-          <label for="romantique">Romantique</label>
+          <button><i class="fas fa-heart fa-lg"></i></button>
+          <label>Romantique</label>
         </div>
 
         <div class="animaux">
-          <input type="checkbox" id="animaux" name="animaux">
-          <label for="animaux">Animaux autorisés</label>
+          <button><i class="fas fa-dog fa-lg"></i></button>
+          <label>Animaux autorisés</label>
         </div>
       </div>
     </div>
   </form>
+
   <div class="ville_info">
-    <img class="logo_info" src="images/logo/info_logo.png" alt="info_logo">
+    <span class="i_logo"><i class="fas fa-info"></i></span>
     <p>Plus de 500 logements sont disponible dans cette ville</p>
   </div>
 
