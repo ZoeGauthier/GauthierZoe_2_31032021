@@ -461,6 +461,215 @@ footer a:hover {
   text-decoration: underline;
 }
 
+@media screen and (min-width: 768px) {
+  
+  /* Tablette */
+  body {
+    padding: 20px;
+  }
+  /* Nav */
+  .liens li:nth-child(1) {
+    order: 4;
+    flex: 2;
+  }
+  .liens li:nth-child(2) {
+    order: 0;
+  }
+  .liens li:nth-child(3) {
+    order: 2;
+  }
+  .lien li:nth-child(4) {
+    order: 2;
+  }
+  nav {
+    width: 100%;
+    flex-direction: row;
+  }
+  .register {
+    padding-top: 10px;
+  }
+
+  #register {
+    align-self: unset;
+  }
+
+  h2,
+  h3 {
+    padding-left: 20px;
+    width: fit-content;
+  }
+  #hebergement,
+  #activities {
+    border-bottom: none;
+    width: fit-content;
+    margin-left: 50px;
+    width: auto;
+  }
+  .top_bar {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .top_bar li {
+    align-self: baseline;
+  }
+  .register {
+    margin-left: 50px;
+    display: flex;
+  }
+  #logo {
+    align-self: flex-start;
+  }
+  .top_bar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .liens {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  nav a:hover {
+    border-top: solid 2px #0065fc;
+  }
+  /* Barre de recherche */
+  .city_textfield {
+    width: 300px;
+  }
+  .search_button {
+    background-image: none;
+    font-size: 1em;
+    width: auto;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* Hébergements */
+  .room_image {
+    width: 320px;
+  }
+  .hebergement_list a {
+    width: max-content;
+  }
+  .hebergement_list p {
+    width: 100%;
+    padding-left: 60px;
+  }
+  .hebergement_list {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hebergement_list h4 {
+    width: 100%;
+    text-align: center;
+  }
+  /* Les plus populaires */
+  .most_popular {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  .most_popular a,
+  .most_popular li {
+    width: auto;
+    height: auto;
+  }
+  .popular_room_image {
+    width: 300px;
+    height: 200px;
+  }
+  .most_popular h2 {
+    font-size: 1.2em;
+  }
+  .most_popular h3 {
+    font-size: 1em;
+  }
+  .description {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* Activités */
+  .activitie_image_large,
+  .activitie_image_medium,
+  .activitie_image_small {
+    height: 200px;
+    width: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .activities_list a {
+    width: max-content;
+    background-color: white;
+    box-shadow: -1px 2px 27px 0px rgba(189, 189, 189, 0.65);
+  }
+  .activities_list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .activities a {
+    max-width: none;
+  }
+
+  .activities p {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* Tablettes XL */
+  .liens {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .description {
+    width: 400px;
+  }
+  .inscription {
+    margin-right: 0;
+  }
+  .populaire_chambre_image {
+    width: 300px;
+    height: 200px;
+  }
+  .description h2 {
+    font-size: 1.5em;
+  }
+  .description h3 {
+    font-size: 1.2em;
+  }
+  .hebergement_liste {
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .activitis_liste {
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .activite_image_large,
+  .activite_image_medium,
+  .activite_image_small {
+    height: 200px;
+    width: 420px;
+  }
+  .hebergement_liste h4 {
+    font-size: 1em;
+    font-family: "Raleway";
+    text-align: start;
+    width: 100%;
+    padding-left: 20px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   /* Ordinateurs */
   body {
