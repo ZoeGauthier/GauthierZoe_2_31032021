@@ -1,0 +1,112 @@
+<header>
+
+<!-- Navigation -->
+
+<nav>
+
+  <ul class="liens">
+    <li id="reservia"><a href="index.html" class="reservia"><img class="logo" src="images/logo/Reservia3x.png"
+          alt="logo_reservia"></a></li>
+    <li id="inscription"><a href="" class="inscription"> S'inscrire</a></li>
+    <li id="hebergement"><a href="#ancre-1" class="hebergement_lien">Hébergements</a></li>
+    <li id="activites"><a href="#ancre-2" class="activites_lien">Activités</a></li>
+  </ul>
+</nav>
+
+    </header>
+
+
+CSS
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+.liens {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-top: 0;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 120px;
+  border: none;
+  object-fit: fill;
+}
+
+.reservia:hover {
+  border: none;
+}
+
+.reservia {
+  width: fit-content;
+}
+
+#reservia {
+  margin-left: 10px;
+}
+
+
+#hebergement,
+#activites {
+  width: 50%;
+  border-bottom: solid 3px #f2f2f2;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.liens {
+  list-style-type: none;
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.liens li {
+  align-self: center;
+}
+
+.liens a:hover,
+#hebergement:hover,
+#activites:hover {
+  border-color: #0065fc;
+  color: #0065fc;
+}
+
+.hebergement_lien,
+.activites_lien {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+
+.inscription {
+  color: #0065fc;
+  border-bottom: none;
+  width: auto;
+  text-decoration: none;
+  font-family: "Raleway-Bold";
+  align-self: baseline;
+}
+
+.inscription:hover {
+  border: none;
+}
+
+#inscription {
+  align-self: center;
+  padding-right: 10px;
+}
