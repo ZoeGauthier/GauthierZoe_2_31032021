@@ -15,10 +15,6 @@
   src: url("images/police/Raleway-Bold.ttf");
 }
 
-* {
-  font-family: "Raleway";
-}
-
 header {
   display: flex;
 }
@@ -32,7 +28,6 @@ nav {
   display: flex;
   width: 100%;
   list-style-type: none;
-  padding-inline-start: 0;
   margin-top: 0;
   flex-wrap: wrap;
   margin-top: 10px;
@@ -49,26 +44,22 @@ nav {
   border: none;
 }
 
-.reservia {
-  width: fit-content;
-}
-
 #reservia {
   margin-left: 10px;
+  text-align: left;
 }
 
 #hebergement,
 #activites {
   width: 50%;
   border-bottom: solid 3px #f2f2f2;
-  text-align: center;
+  text-align: right;
   padding-bottom: 10px;
   margin-top: 10px;
 }
 
 .liens {
   list-style-type: none;
-  padding-inline-start: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -78,7 +69,7 @@ nav {
 }
 
 .liens li {
-  align-self: center;
+  align-self: auto;
 }
 
 .liens a:hover,
@@ -223,7 +214,6 @@ body {
   text-decoration: none;
   color: black;
   border-radius: 25px;
-  width: 25%;
 }
 
 .hebergement_liste p {
@@ -426,7 +416,11 @@ button {
   border-radius: 25px;
   margin-bottom: 25px;
   height: fit-content;
-  box-shadow: -1px 2px 27px 0px rgba(189, 189, 189, 0.65);
+  box-shadow: -1px 2px 27px 0px rgb(189 189 189 / 65%);
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
 }
 
 /* Footer */
@@ -447,10 +441,6 @@ footer {
 footer a {
   text-decoration: none;
   color: black;
-}
-
-footer ul {
-  padding-inline-start: 0;
 }
 
 footer li {
@@ -573,24 +563,28 @@ footer a:hover {
     margin: 0;
     justify-content: center;
   }
-  .activite_image_large {
-    width: 280px;
-    height: 375px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  .activite_image_medium {
-    width: 280px;
-    height: 180px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-  }
+
   .activite_image_small {
     width: 280px;
     height: 120px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
   }
+
+  .activite_image_medium {
+    width: 280px;
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .activite_image_large {
+    width: 280px;
+    height: 375px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
   footer {
     flex-direction: row;
     justify-content: space-between;
