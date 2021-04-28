@@ -110,3 +110,6 @@ nav {
   align-self: center;
   padding-right: 10px;
 }
+
+
+box-shadow: -1px 2px 27px 0px rgba(189, 189, 189, 0.65);

@@ -1,0 +1,1869 @@
+/* Polices */
+
+@font-face {
+    font-family: "Raleway";
+    src: url("images/police/Raleway-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "Raleway-Thin";
+    src: url("images/police/Raleway-Thin.ttf");
+  }
+  
+  @font-face {
+    font-family: "Raleway-Bold";
+    src: url("images/police/Raleway-Bold.ttf");
+  }
+
+  body
+{
+    font-family: "Raleway", "Sans serif";
+}
+
+
+/*-- Bloc body --*/
+
+
+.bloc_page
+{  
+    max-width: 1160px;
+    min-width: 950px;
+    margin: auto;
+    
+}
+
+.logo
+{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*-- Navigation --*/
+
+.logoandtopnav
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.topnav
+{
+   display: flex;
+   margin-top: 12px;
+   width: 100%;
+   margin-left: 580px;
+   margin-right: 20px;
+}
+
+.topnav ul
+{
+  display: inline-block;
+  align-items: center;
+}
+
+.topnav li
+{
+    list-style-type: none;
+}
+
+.topnav a
+{
+    text-decoration: none;
+    padding: 15px;
+    padding-top: 34px;
+}
+
+.topnav a:hover
+{
+    color: #0065FC;
+    font-weight: bold;
+    border-top: 2px solid #0065FC;
+    padding-top: 34px;
+    transition: 0.2s;
+}
+
+.subscribe_link
+{
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.activity_link, .accomodation_link
+{
+    color: black;
+}
+
+
+/*-- Titres --*/
+
+.title_top
+{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    line-height: 0.6em;
+    font-size: 90%;
+}
+
+.secondary_title
+{
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
+/*-- Barre de recherche --*/
+
+.search_box
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #F2F2F2;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    border-right: transparent;
+    block-size: 2.5em;
+    inline-size: max-content;
+}
+
+.map-icon
+{
+    background-color: #F2F2F2;
+    padding: 0.7rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+}
+
+.searchcountry
+{
+    margin: 10px;
+    margin-right: 0;
+    block-size: 3em;
+    border: hidden;
+    font-weight: bold;
+    font-family: "Raleway";
+    outline: none;
+}
+
+.button
+{
+  block-size: 3em;
+  border-top-left-radius: 0em;
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0.8em;
+  border-top-right-radius: 0.8em;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: "Raleway";
+  font-weight: bold;
+  color: white;
+  border: hidden;
+  background-color: #0065FC;
+  outline: none;
+  cursor: pointer;
+}
+
+.loupe_search
+{
+    display: none;
+}
+
+
+/*-- Filtres --*/
+
+.filters
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.filter_title
+{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-bottom: 35px;
+}
+
+.filter-item-eco
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.filter-item-family
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.filter-item-romance
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.filter-item-animal
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+/*-- Filtres icons --*/
+
+.filter-icon-eco
+{
+    margin-top: -15px;
+    margin-left: -2px;
+    height: 38px;
+    padding-right: 1px;
+    position: absolute;
+    font-size: medium;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 10px solid #DEEBFF;
+    box-sizing: border-box;
+    border-radius: 3em;
+}
+
+.filter-icon-family
+{
+    margin-right: 5px;
+    margin-top: -15px;
+    margin-left: -2px;
+    padding-right: 2px;
+    height: 38px;
+    position: absolute;
+    font-size: large;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 9px solid #DEEBFF;
+    box-sizing: border-box;
+    border-radius: 3em;
+}
+
+.filter-icon-romance
+{
+    margin-right: 5px;
+    margin-left: -2px;
+    margin-top: -15px;
+    padding-right: 2px;
+    position: absolute;
+    font-size: large;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 8.5px solid #DEEBFF;
+    box-sizing: border-box;
+    border-radius: 3em;
+}
+
+.filter-icon-animal
+{
+    margin-top: -15px;
+    margin-left: -2px;
+    position: absolute;
+    font-size: large;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 8.5px solid #DEEBFF;
+    box-sizing: border-box;
+    border-radius: 3em;
+}
+
+/*-- Boxes --*/
+
+.filter-box-eco
+{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: -15px;
+    block-size: 2.2em;
+    height: 38px;
+}
+
+.filter-box-family
+{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: -15px;
+    block-size: 2.2em;
+    height: 38px;
+}
+
+.filter-box-romance
+{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: -15px;
+    block-size: 2.2em;
+    height: 38px;
+}
+
+.filter-box-animal
+{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: -15px;
+    block-size: 2.2em;
+    height: 38px;
+}
+
+
+.input-filter-eco
+{
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    padding-right: 10x;
+    margin-left: -10px;
+    border-radius: 2.5em;
+    inline-size: 11em;
+    color: black;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-width: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+.input-filter-family
+{
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    padding-right: 10x;
+    margin-left: -10px;
+    border-radius: 2.5em;
+    inline-size: 8em;
+    color: black;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-width: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+.input-filter-romance
+{
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    padding-right: 10x;
+    margin-left: -10px;
+    border-radius: 2.5em;
+    border-width: 2px;
+    inline-size: 10em;
+    color: black;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    outline: none;
+    cursor: pointer;
+}
+
+.input-filter-animal
+{
+    font-family: "Raleway";
+    font-weight: bold;
+    text-align: center;
+    padding-right: 10x;
+    margin-left: -10px;
+    border-radius: 2.5em;
+    inline-size: 13em;
+    color: black;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-width: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+/*-- Hover box --*/
+
+.input-filter-eco:hover
+{
+  background-color: #DEEBFF;
+  inline-size: 11.2em;
+  transition: 0.5s;
+}
+
+.input-filter-family:hover
+{
+  background-color: #DEEBFF;
+  inline-size: 8.2em;
+  transition: 0.5s;
+}
+
+.input-filter-romance:hover
+{
+  background-color: #DEEBFF;
+  inline-size: 10.2em;
+  transition: 0.5s;
+}
+
+.input-filter-animal:hover
+{
+  background-color: #DEEBFF;
+  inline-size: 13.2em;
+  transition: 0.5s;
+}
+
+
+/*-- Information --*/
+
+.information_bubble
+{
+  margin-top: 12px;
+  margin-left: 5px;
+  display: flex;
+}
+
+.info-icon
+{
+  color: #0065FC;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-left: 5px;
+  padding-top: 4px;
+  border: 1.8px solid #e6e6e6;
+  border-radius: 2em;
+  block-size: 1.5em;
+  inline-size: 1.8em;
+  block-size: 1.4em;
+}
+
+.info_text
+{
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-family: "Raleway";
+}
+
+/*-- Accomodation box --*/
+
+.accom_title
+{
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.first_title
+{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.price_title
+{
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 10px;
+    margin-bottom: -5px;
+}
+
+.href_title_cards
+{
+    text-decoration: none;
+    color: black;
+}
+
+.see-more a
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.first_row_card_accom
+{
+    display: flex;
+    justify-content: center;
+}
+
+.second_row_card_accom
+{
+    display: flex;
+    justify-content: center;
+}
+
+.accom_cards 
+{
+  border: 1px solid rgba(255, 255, 255, 0);
+  background-color: white;
+  box-shadow: 0px 0px 13px #d1d1d1;
+  inline-size: 190px;
+  line-height: 0.5em;
+  padding: 3px;
+  border-radius: 1em;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.accom_cards:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s;
+}
+
+.accom_part
+{
+  border: 1px solid white;
+  background-color: #F2F2F2;
+  border-radius: 1.5em;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  height: 100%;
+  width: 100%
+}
+
+.accom_picture
+{
+    border-radius: 1em;
+    height: 100px;
+    width: 190px;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+/*-- Stars rating --*/
+
+.accom_part ul
+{
+   margin-bottom: 5px;
+}
+
+.accom_part li
+{
+    list-style-type: none;
+    display: flex;
+}
+
+.note-article
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: -30px;
+}
+
+.blue_star
+{
+    color: #0065FC;
+    font-size: 12px;
+}
+
+.grey_star
+{
+    color: #bebebed7;
+    font-size: 12px;
+}
+
+/*-- Most Popular --*/
+
+.section_with_aside
+{
+    max-width: 1160px;
+    min-width: 950px;
+    display: flex;
+}
+
+.mp_title
+{
+    margin-top: 3px;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+/*-- Icon chart --*/
+
+.chart-icon
+{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.align-icon-mp
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/*-- Most popular card/box --*/
+
+.most_popular_part
+{
+    border: 1px solid white;
+    background-color: #F2F2F2;
+    border-radius: 1.5em;
+    padding: 10px;
+    margin-left: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.accom_popular_cards
+{
+    box-shadow: 0px 0px 13px #d1d1d1;
+    background-color: white;
+    border-radius: 1.5em;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 23px;
+    display: flex;
+    width: 22em;
+}
+
+.accom_popular_cards:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+}
+
+.href_title_cards
+{
+    text-decoration: none;
+    color: black;
+}
+
+/*-- Most popular IMG --*/
+
+.accom_popular
+{
+    padding: 5px;
+    border-top-left-radius: 1.5em ;
+    border-bottom-left-radius: 1.5em;
+    height: 120px;
+}
+
+/*-- Most popular text cards --*/
+
+.popular_title
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+.first_title_popular
+{
+    font-size: 15px;
+    word-wrap: break-word;
+    padding-left: 5px;
+    padding-top: 2px;
+    margin-right: 50px;
+}
+
+.price_title_popular
+{
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px;
+    margin-top: -10px;
+}
+
+/*-- Stars Rates --*/
+
+.most_popular_part li
+{
+    list-style-type: none;
+}
+
+.popular_stars
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.note-article-popular
+{
+    margin-top: 0px;
+    display: flex;
+    padding-left: 5px;
+}
+
+/*-- Activity --*/
+
+.activity
+{
+   margin-left: 5px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+/*-- Activity box --*/
+
+.activity_part
+{
+    border: 1px solid white;
+    display: flex;
+    position: relative;
+}
+.activity_cards1
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    height: 390px;
+    margin-right: 0px;
+}
+
+.activity_cards2
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    height: 220px;
+    margin-left: 20px;
+}
+
+.activity_cards3
+{
+    position: absolute;
+    border-radius: 1.5em;
+    top: 250px;
+    left: 275px;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    height: 140px;
+    margin-left: 20px;
+}
+
+.activity_cards4
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    height: 390px;
+    margin-left: 20px;
+}
+
+.activity_cards5
+{
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    height: 185px;
+    margin-left: 15px;
+}
+
+.activity_cards6
+{
+    position: absolute;
+    top: 192px;
+    left: 870px;
+    border-radius: 1.5em;
+    box-shadow: 0px 2px 12px #d1d1d1;
+    height: 190px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+/*-- Activity title --*/
+
+.activity_top_title
+{
+    font-weight: bold;
+    font-family: "Raleway";
+    font-size: 22px;
+}
+
+.activity_title
+{
+    font-size: 15px;
+    font-family: "Raleway";
+    padding-left: 20px;
+}
+
+/*-- Activity IMG --*/
+
+.activity_picture
+{
+    border-top-left-radius: 1.2em;
+    border-top-right-radius: 1.2em;
+    inline-size: 272px;
+}
+/*-- Activity Hover --*/
+
+.href_cards
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+}
+
+.href_cards:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards2
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+}
+
+.href_cards2:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards3
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+}
+
+.href_cards3:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards4
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+}
+
+.href_cards4:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards5
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 185px;
+}
+
+.href_cards5:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+.href_cards6
+{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+}
+
+.href_cards6:hover
+{
+    background-color: #DEEBFF;
+    transition: 0.5s; 
+    border-radius: 1.5em;
+}
+
+/*-- Footer--*/
+
+.page_footer
+{
+    min-width: 1160px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+}
+
+.page_footer h2
+{
+    font-size: 18px;
+    font-style: bolder;
+    margin-top: 40px;
+}
+
+.page_footer h3
+{
+    font-size: 15px;
+}
+
+.footer_nav1
+{
+    margin-left: -250px;
+   margin-right: 150px;
+   margin-bottom: 30px;
+}
+
+.footer_nav2
+{
+    margin-right: 150px
+}
+
+.footer_nav3
+{
+    margin-left: 80px;
+}
+
+.option_footer
+{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+/*--- Tablette ---*/
+
+@media screen and (max-device-width: 768px)
+{
+    
+    body
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    .bloc_page
+    {
+        max-width: 768px;
+        min-width: 480px;
+        width: 97%;
+        margin-left: 20px;
+    }
+    .logoandtopnav
+    {
+        width: 740px;
+        margin: auto;
+        display: inline-flex;
+    }
+
+    .topnav
+    {
+        width: auto;
+        margin-left: 0px;
+        margin-right: 5px;
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .title_top
+    {
+        line-height: 0.6;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .principal_title
+    {
+        width: 600px;
+        font-size: 20px;
+        word-wrap: normal;
+    }
+
+    .secondary_title
+    {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .search_box
+    {
+        block-size: 40px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .map-icon
+    {
+        margin-left: -2px;
+    }
+
+    .button
+    {
+        width: 100px;
+        height: 40px;
+    }
+
+    .loupe_search
+    {
+        display: none;
+    }
+
+    .filters
+    {
+        margin-left: 0px;
+    }
+
+    .filter-item-eco
+    {
+        margin-left: 20px;
+    }
+
+    .input-filter-eco:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 11.5em;
+        transition: 0.5s;
+    }
+
+    .filter-item-family
+    {
+        margin-left: 5px;
+    }
+
+    .input-filter-family:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 8.5em;
+        transition: 0.5s;
+    }
+    
+    .filter-item-romance
+    {
+        margin-left: 5px;
+    }
+
+    .input-filter-romance:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 10.5em;
+        transition: 0.5s;
+    }
+
+    .filter-item-animal
+    {
+        margin-left: 5px;
+    }
+
+    .input-filter-animal:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 13.5em;
+        transition: 0.5s;
+    }
+
+    .filter_title
+    {
+        font-size: 17px;
+        margin-right: 10px;
+    }
+
+    .filter-item
+    {
+        margin-right: 10px;
+    }
+
+    .information_bubble
+    {
+        font-size: 14px;
+        margin-top: 0px;
+        font-weight: 500;
+    }
+
+    .accom_part
+    {
+        margin-bottom: 10px;
+        margin-left: 2px;
+        width: 665px;
+        max-width: 768px;
+    }
+
+    .accom_title
+    {
+        font-size: 20px;
+    }
+
+    .first_row_card_accom
+    {
+        display: flex;
+    }
+
+    .second_row_card_accom
+    {
+        display: flex;
+    }
+
+    .see-more
+    {
+        font-size: 15px;
+    }
+
+    .accom_picture
+    {
+        object-fit: cover;
+    }
+
+    .section_with_aside
+    {
+        max-width: 768px;
+        min-width: 480px;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .accom_popular
+    {
+        object-fit: cover;
+    }
+
+    .most_popular_part
+    {
+        width: 705px;
+        max-width: 768px;
+        margin-left: 2px;
+        padding-bottom: 20px;
+    }
+
+    .mp_title
+    {
+        font-size: 22px;
+    }
+
+    .chart-icon
+    {
+        margin-right: 15px;
+    }
+
+    .accom_popular_cards
+    {
+        width: 91.5%;
+        margin-left: 28px;
+        margin-bottom: 15px;
+    }
+
+    .first_title_popular
+    {
+        font-size: 19px;
+    }
+
+    .price_title_popular
+    {
+        font-size: 17px;
+    }
+
+    .activity_top_title
+    {
+        margin-left: 15px;
+    }
+
+    .activity
+    {
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+
+    .activity_part
+    {
+        display: flex;
+        margin: 5px;
+        height: 350px;
+    }
+
+    .activity_title
+    {
+        font-size: 13px;
+        text-align: start;
+    }
+
+    .activity_cards1
+    {
+        height: 144px;
+        width: 230px;
+        margin: 0px;
+        margin-left: -2px;
+    }
+
+    .href_cards
+    {
+        height: 144px;
+    }
+
+    .activity_cards2
+    {
+        height: 145px;
+        width: 230px;
+        margin-left: 15px;
+    }
+
+    .href_cards2
+    {
+        height: 145px;
+    }
+
+    .activity_cards3
+    {
+        height: 140px;
+        width: 230px;
+        margin: 0px;
+        top: 160px;
+        left: 0;
+        margin-left: -2px;
+        
+    }
+
+    .activity_cards4
+    {
+        height: 145px;
+        width: 230px;
+        margin-left: 15px;
+    }
+
+    .href_cards4
+    {
+        height: 145px;
+    }
+
+    .activity_cards5
+    {
+        height: 141px;
+        width: 230px;
+        margin-left: -475px;
+        margin-top: 160px;
+    }
+
+    .href_cards5
+    {
+        height: 141px;
+    }
+
+    .activity_cards6
+    {
+        height: 142px;
+        width: 230px;
+        margin-left: -383px;
+        margin-top: -32px;
+    }
+
+    .href_cards6
+    {
+        height: 145px;
+    }
+    
+    .activity_picture
+    {
+        width: 230px;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .page_footer
+    {
+        min-width: 768px;
+        height: 200px;
+        justify-content: space-around;
+    }
+    .footer_nav1
+    {
+        margin-left: -10px;
+        margin-right: 0px;
+    }
+
+    .footer_nav2
+    {
+        margin-left: -30px;
+        margin-right: 0px;
+    }
+
+    .footer_nav3
+    {
+        margin-left: 0px;
+    }
+
+    .option_footer
+    {
+        font-size: 13px;
+    }
+
+}
+
+/*--- Mobile ---*/
+
+@media screen and (max-device-width: 480px) 
+{
+
+    body
+    {
+        width: 480px;
+        min-width: 300px;
+        margin: auto;
+    }
+
+    .bloc_page
+    {
+        width: 100%;
+        margin: auto;
+        max-width: 480px;
+        min-width: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .logoandtopnav
+    {
+        width: 430px;
+        margin: auto;
+    }
+
+    .logo
+    {
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .topnav
+    {
+        position: relative;
+        width: 480px;
+        left: -144px;
+        top: 50px; 
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    .topnav ul
+    {
+        width: 480px;
+        padding-left: 0px;
+        margin-bottom: -34px;
+        margin-top: 35px;
+    }
+
+    .accomodation_link
+    {
+        width: 400px;
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+        left: 65px;
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+    }
+
+    .activity_link
+    {
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+        left: 135px;
+    }
+
+    .subscribe_link
+    {
+        float: right;
+        position: relative;
+        top: -110px;
+        right: 40px;
+        font-size: 18px;
+    }
+
+    .topnav a:hover
+    {
+        border-top: none;
+    }
+    .accomodation_link:hover
+    {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .activity_link:hover
+    {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .subscribe_link:hover
+    {
+        color: #0065FC;
+        font-weight: bold;
+        border-bottom: 2px solid #0065FC;
+        transition: 0.2s;
+    }
+
+    .title_top
+    {
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+
+    .principal_title
+    {
+        width: 400px;
+        height: 30px;
+        line-height: 1.1em;
+        font-size: 26px;
+        margin-bottom: 50px;
+    }
+
+    .secondary_title
+    {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .search_box
+    {
+        margin-left: 40px;
+        block-size: 50px;
+    }
+
+    .map-icon
+    {
+        height: 24px;
+        padding-left: -17px;
+        padding-top: 15px;
+        margin-right: 10px;
+        border-bottom-left-radius: 0.7em;
+        border-top-left-radius: 0.7em;
+    }
+
+    .searchcountry
+    {
+        font-weight: 800;
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+
+    .button
+    {
+        display: none;
+    }
+
+    .loupe_search
+    {
+        display: initial;
+        background-color: #0065FC;
+        width: 52px;
+        height: 51px;
+        border: 0px solid #0065FC;
+        border-radius: 1em;
+        color: white;
+        margin-right: auto;
+    }
+
+    .filters
+    {
+        width: 300px;
+        height: 200px;
+        display: block;
+        margin-left: 40px;
+        margin-bottom: 15px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    .filter_title
+    {
+        margin-top: 25px;
+        margin-left: 5px;
+        font-size: 18px;
+    }
+
+    .filter-item-eco
+    {
+        margin-left: 5px;
+        margin-bottom: 30px;
+    }
+
+    .input-filter-eco
+    {
+        inline-size: 12em;
+        font-size: 14px;
+    }
+
+    .input-filter-eco:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 12.5em;
+        transition: 0.5s;
+    }
+
+    .filter-item-family
+    {
+        margin-left: 40px;
+        margin-bottom: 25px;
+        position: absolute;
+        top: 431px;
+        right: 160px;
+        left: 190px;
+    }
+
+    .input-filter-family
+    {
+        inline-size: 9em;
+        font-size: 14px;
+    }
+
+    .input-filter-family:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 9.5em;
+        transition: 0.5s;
+    }
+
+    .filter-icon-romance
+    {
+        padding-top: 1px;
+    }
+
+    .filter-item-romance
+    {
+        margin-left: 5px;
+        margin-bottom: 30px;    
+    }
+
+    .input-filter-romance
+    {
+        inline-size: 11em;
+        font-size: 14px;
+    }
+
+    .input-filter-romance:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 11.8em;
+        transition: 0.5s;
+    }
+
+    .filter-item-animal
+    {
+        margin-left: 5px;
+        margin-bottom: 30px;
+    }
+
+    .input-filter-animal
+    {
+        inline-size: 14em;
+        font-size: 14px;
+    }
+
+    .input-filter-animal:hover 
+    {
+        background-color: #DEEBFF;
+        inline-size: 15em;
+        transition: 0.5s;
+    }
+
+    .information_bubble
+    {
+        width: 310px;
+        height: 20px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+        font-size: 13.5px;
+        font-weight: 500;
+    }
+
+    .info-icon
+
+    {
+        padding: 2px;
+        padding-top: 4px;
+        margin-left: 0px;
+        inline-size: 2.2em;
+    }
+
+    .info_text
+    {
+        width: 400px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .section_with_aside
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .most_popular_part
+    {
+        margin: auto;
+        width: 480px;
+        border-radius: 0em;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .accom_popular_cards
+    {
+        width: 420px;
+    }
+
+    .chart-icon 
+    {
+        margin-right: 0px;
+    }
+
+    .mp_title
+    {
+        font-size: 24px;
+    }
+
+    .accom_popular
+    {
+        margin-right: 10px;
+        height: 140px;
+        object-fit: cover;
+    }
+
+    .first_title_popular 
+    {
+        font-size: 19px;
+        width: 200px;
+    }
+
+    .accom_part
+    {
+        width: 435px;
+        background-color: white;
+        margin-left: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .accom_title
+    {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    .accom_cards
+    {
+        margin-left: 10px;
+        inline-size: 405px;
+    }
+
+    .accom_picture
+    {   width: 405px;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .first_row_card_accom
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second_row_card_accom
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .see-more
+    {
+        margin-left: 15px;
+    }
+    .activity
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .activity_top_title
+    {
+        font-size: 25px;
+    }
+
+    .activity_part
+    {
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity_picture
+    {
+       width: auto;
+       height: 170px;
+       object-fit: cover;
+    }
+
+    .activity_cards1
+    {
+       margin-left: 10px;
+       inline-size: 400px;
+       height: 215px;
+       margin-bottom: 20px;
+    }
+
+    .href_cards
+    {
+        height: 215px;
+    }
+
+    .activity_cards2
+    {
+       margin-left: 10px;
+       inline-size: 400px;
+       height: 215px;
+    }
+
+    .href_cards2
+    {
+        height: 215px;
+    }
+
+    .activity_cards3
+    {
+        position: relative;
+        top: 20px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+        inline-size: 400px;
+        height: 215px;
+    }
+
+    .href_cards3
+    {
+        height: 215px;
+    }
+
+    .activity_cards4
+    {
+        height: 215px;
+        width: 400px;
+        margin-left: 10px;
+    }
+
+    .href_cards4
+    {
+        height: 215px;
+    }
+
+    .activity_cards5
+    {
+       margin-left: 10px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       height: 215px;
+       width: 400px;
+    }
+
+    .href_cards5
+    {
+        height: 215px;
+    }
+
+    .activity_cards6
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: 10px;
+        height: 215px;
+        width: 400px;
+        margin-top: 0px;
+    }
+
+    .href_cards6
+    {
+        height: 215px;
+    }
+
+    .page_footer
+    {
+        width: 200px;
+        height: 530px;
+        min-width: 478px;
+        flex-direction: column;
+    }
+
+    .footer_nav1
+    {
+        margin-bottom: 0px;
+        margin-left: 50px;
+    }
+
+    .footer_nav1 h2
+    {
+        font-size: 20px;
+    }
+
+    .option_footer
+    {
+        font-size: 16px;
+        font-weight: 450;
+    }
+
+    .footer_nav2
+    {
+        margin-bottom: 0px;
+        margin-left: 50px;
+    }
+
+    .footer_nav2 h2
+    {
+        font-size: 20px;
+    }
+
+    .footer_nav3
+    {
+        margin-bottom: 40px;
+        margin-left: 50px;
+    }
+
+    .footer_nav3 h2
+    {
+        font-size: 20px;
+    }
+}    
