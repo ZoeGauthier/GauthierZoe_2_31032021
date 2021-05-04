@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: "Raleway";
-    src: url("images/police/Raleway-Medium.ttf");
+    src: url("img/police/Raleway-Medium.ttf");
   }
   
   @font-face {
     font-family: "Raleway-Thin";
-    src: url("images/police/Raleway-Thin.ttf");
+    src: url("img/police/Raleway-Thin.ttf");
   }
   
   @font-face {
     font-family: "Raleway-Bold";
-    src: url("images/police/Raleway-Bold.ttf");
+    src: url("img/police/Raleway-Bold.ttf");
   }
 
   body
@@ -125,8 +125,8 @@
     border-bottom-left-radius: 1em;
     border-top-left-radius: 1em;
     border-right: transparent;
-    block-size: 2.5em;
-    inline-size: max-content;
+    height: 2.5em;
+    width: max-content;
 }
 
 .map-icon
@@ -141,7 +141,7 @@
 {
     margin: 10px;
     margin-right: 0;
-    block-size: 3em;
+    height: 3em;
     border: hidden;
     font-weight: bold;
     font-family: "Raleway";
@@ -150,7 +150,7 @@
 
 .button
 {
-  block-size: 3em;
+  height: 3em;
   border-top-left-radius: 0em;
   border-bottom-left-radius: 0em;
   border-bottom-right-radius: 0.8em;
@@ -232,7 +232,7 @@
     font-size: medium;
     color: #0065FC;
     background-color: #DEEBFF;
-    border: 10px solid #DEEBFF;
+    border: 10px solid #deeafc;
     box-sizing: border-box;
     border-radius: 3em;
 }
@@ -251,7 +251,7 @@
     justify-content: center;
     color: #0065FC;
     background-color: #DEEBFF;
-    border: 9px solid #DEEBFF;
+    border: 9px solid #deeafc;
     box-sizing: border-box;
     border-radius: 3em;
 }
@@ -266,7 +266,7 @@
     font-size: large;
     color: #0065FC;
     background-color: #DEEBFF;
-    border: 8.5px solid #DEEBFF;
+    border: 8.5px solid #deeafc;
     box-sizing: border-box;
     border-radius: 3em;
 }
@@ -279,7 +279,7 @@
     font-size: large;
     color: #0065FC;
     background-color: #DEEBFF;
-    border: 8.5px solid #DEEBFF;
+    border: 8.5px solid #deeafc;
     box-sizing: border-box;
     border-radius: 3em;
 }
@@ -292,8 +292,7 @@
     margin-left: 10px;
     margin-right: 15px;
     margin-top: -15px;
-    block-size: 2.2em;
-    height: 38px;
+    height: 2.2em;
 }
 
 .filter-box-family
@@ -302,8 +301,7 @@
     margin-left: 10px;
     margin-right: 15px;
     margin-top: -15px;
-    block-size: 2.2em;
-    height: 38px;
+    height: 2.2em;
 }
 
 .filter-box-romance
@@ -312,8 +310,7 @@
     margin-left: 10px;
     margin-right: 15px;
     margin-top: -15px;
-    block-size: 2.2em;
-    height: 38px;
+    height: 2.2em;
 }
 
 .filter-box-animal
@@ -322,8 +319,7 @@
     margin-left: 10px;
     margin-right: 15px;
     margin-top: -15px;
-    block-size: 2.2em;
-    height: 38px;
+    height: 2.2em;
 }
 
 
@@ -332,10 +328,9 @@
     font-family: "Raleway";
     font-weight: bold;
     text-align: center;
-    padding-right: 10x;
-    margin-left: -10px;
+    padding-right: 10px;
     border-radius: 2.5em;
-    inline-size: 11em;
+    width: 11em;
     color: black;
     background-color: white;
     border: 2px solid #F2F2F2;
@@ -349,10 +344,9 @@
     font-family: "Raleway";
     font-weight: bold;
     text-align: center;
-    padding-right: 10x;
-    margin-left: -10px;
+    padding-right: 10px;
     border-radius: 2.5em;
-    inline-size: 8em;
+    width: 8em;
     color: black;
     background-color: white;
     border: 2px solid #F2F2F2;
@@ -366,11 +360,10 @@
     font-family: "Raleway";
     font-weight: bold;
     text-align: center;
-    padding-right: 10x;
-    margin-left: -10px;
+    padding-right: 10px;
     border-radius: 2.5em;
     border-width: 2px;
-    inline-size: 10em;
+    width: 10em;
     color: black;
     background-color: white;
     border: 2px solid #F2F2F2;
@@ -383,10 +376,8 @@
     font-family: "Raleway";
     font-weight: bold;
     text-align: center;
-    padding-right: 10x;
-    margin-left: -10px;
     border-radius: 2.5em;
-    inline-size: 13em;
+    width: 13em;
     color: black;
     background-color: white;
     border: 2px solid #F2F2F2;
@@ -400,28 +391,28 @@
 .input-filter-eco:hover
 {
   background-color: #DEEBFF;
-  inline-size: 11.2em;
+  width: 11.2em;
   transition: 0.5s;
 }
 
 .input-filter-family:hover
 {
   background-color: #DEEBFF;
-  inline-size: 8.2em;
+  width: 8.2em;
   transition: 0.5s;
 }
 
 .input-filter-romance:hover
 {
   background-color: #DEEBFF;
-  inline-size: 10.2em;
+  width: 10.2em;
   transition: 0.5s;
 }
 
 .input-filter-animal:hover
 {
   background-color: #DEEBFF;
-  inline-size: 13.2em;
+  width: 13.2em;
   transition: 0.5s;
 }
 
@@ -446,9 +437,8 @@
   padding-top: 4px;
   border: 1.8px solid #e6e6e6;
   border-radius: 2em;
-  block-size: 1.5em;
-  inline-size: 1.8em;
-  block-size: 1.4em;
+  height: 1.5em;
+  width: 1.8em;
 }
 
 .info_text
@@ -512,7 +502,7 @@
   border: 1px solid rgba(255, 255, 255, 0);
   background-color: white;
   box-shadow: 0px 0px 13px #d1d1d1;
-  inline-size: 190px;
+  width: 190px;
   line-height: 0.5em;
   padding: 3px;
   border-radius: 1em;
@@ -801,7 +791,7 @@
 {
     border-top-left-radius: 1.2em;
     border-top-right-radius: 1.2em;
-    inline-size: 272px;
+    width: 272px;
 }
 /*-- Activity Hover --*/
 
@@ -923,13 +913,13 @@
     justify-content: center;
     width: 100%;
     border: 1px solid #F2F2F2;
-    background-color: #F2F2F2;
+    background-color: #f3f3f3;
 }
 
 .page_footer h2
 {
     font-size: 18px;
-    font-style: bolder;
+    font-weight: bold;
     margin-top: 40px;
 }
 
@@ -964,7 +954,9 @@
 
 /*--- Tablette ---*/
 
-@media screen and (max-device-width: 768px)
+/*--- Tablette ---*/
+
+@media screen and (max-width: 768px)
 {
     
     body
@@ -975,21 +967,19 @@
 
     .bloc_page
     {
-        max-width: 768px;
-        min-width: 480px;
         width: 97%;
         margin-left: 20px;
     }
     .logoandtopnav
     {
-        width: 740px;
+        width: 97%;
         margin: auto;
         display: inline-flex;
+        flex-direction:column;
     }
 
     .topnav
     {
-        width: auto;
         margin-left: 0px;
         margin-right: 5px;
         margin-top: 20px;
@@ -1004,7 +994,7 @@
     }
     .principal_title
     {
-        width: 600px;
+        width: 80%;
         font-size: 20px;
         word-wrap: normal;
     }
@@ -1012,12 +1002,11 @@
     .secondary_title
     {
         font-size: 15px;
-        font-weight: 500;
     }
 
     .search_box
     {
-        block-size: 40px;
+        height: 40px;
         font-size: 15px;
         margin-bottom: 15px;
     }
@@ -1029,7 +1018,7 @@
 
     .button
     {
-        width: 100px;
+        width: 10%;
         height: 40px;
     }
 
@@ -1051,7 +1040,7 @@
     .input-filter-eco:hover 
     {
         background-color: #DEEBFF;
-        inline-size: 11.5em;
+        width: 11.5em;
         transition: 0.5s;
     }
 
@@ -1063,7 +1052,7 @@
     .input-filter-family:hover 
     {
         background-color: #DEEBFF;
-        inline-size: 8.5em;
+        width: 8.5em;
         transition: 0.5s;
     }
     
@@ -1075,7 +1064,7 @@
     .input-filter-romance:hover 
     {
         background-color: #DEEBFF;
-        inline-size: 10.5em;
+        width: 10.5em;
         transition: 0.5s;
     }
 
@@ -1087,7 +1076,7 @@
     .input-filter-animal:hover 
     {
         background-color: #DEEBFF;
-        inline-size: 13.5em;
+        width: 13.5em;
         transition: 0.5s;
     }
 
@@ -1113,8 +1102,7 @@
     {
         margin-bottom: 10px;
         margin-left: 2px;
-        width: 665px;
-        max-width: 768px;
+        width: 97%;
     }
 
     .accom_title
@@ -1144,8 +1132,7 @@
 
     .section_with_aside
     {
-        max-width: 768px;
-        min-width: 480px;
+        width: 97%;
         display: flex;
         flex-direction: column;
         width: 400px;
@@ -1158,8 +1145,7 @@
 
     .most_popular_part
     {
-        width: 705px;
-        max-width: 768px;
+        width: 97%;
         margin-left: 2px;
         padding-bottom: 20px;
     }
@@ -1298,7 +1284,7 @@
 
     .page_footer
     {
-        min-width: 768px;
+        min-width: 97%;
         height: 200px;
         justify-content: space-around;
     }
@@ -1333,45 +1319,29 @@
 
     body
     {
-        width: 480px;
-        min-width: 300px;
-        margin: auto;
+        width: auto;
     }
 
     .bloc_page
     {
-        width: 100%;
-        margin: auto;
-        max-width: 480px;
-        min-width: 300px;
         margin-left: 0px;
         margin-right: 0px;
     }
 
-    .logoandtopnav
+    .logo, .topnav
     {
-        width: 430px;
-        margin: auto;
-    }
-
-    .logo
-    {
+        width:100%;
         margin-top: 0px;
-        margin-left: 40px;
+        margin-left: 20px;
     }
 
     .topnav
     {
-        position: relative;
-        width: 480px;
-        left: -144px;
-        top: 50px; 
         border-bottom: 2px solid #F2F2F2;
     }
 
     .topnav ul
     {
-        width: 480px;
         padding-left: 0px;
         margin-bottom: -34px;
         margin-top: 35px;
@@ -1379,10 +1349,8 @@
 
     .accomodation_link
     {
-        width: 400px;
         font-size: 18px;
         font-weight: 500;
-        position: relative;
         left: 65px;
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
@@ -1392,16 +1360,11 @@
     {
         font-size: 18px;
         font-weight: 500;
-        position: relative;
-        left: 135px;
     }
 
     .subscribe_link
     {
         float: right;
-        position: relative;
-        top: -110px;
-        right: 40px;
         font-size: 18px;
     }
 
@@ -1435,18 +1398,17 @@
 
     .title_top
     {
-        margin-top: 40px;
-        margin-left: 40px;
-        margin-right: 0px;
+        
     }
 
     .principal_title
     {
-        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
         height: 30px;
         line-height: 1.1em;
-        font-size: 26px;
-        margin-bottom: 50px;
+        font-size: 25px;
+        margin-bottom: 20px;
     }
 
     .secondary_title
@@ -1458,13 +1420,13 @@
     .search_box
     {
         margin-left: 40px;
-        block-size: 50px;
+        height: 50px;
     }
 
     .map-icon
     {
         height: 24px;
-        padding-left: -17px;
+        padding-left: 17px;
         padding-top: 15px;
         margin-right: 10px;
         border-bottom-left-radius: 0.7em;
@@ -1489,15 +1451,13 @@
         background-color: #0065FC;
         width: 52px;
         height: 51px;
-        border: 0px solid #0065FC;
+        border: 0px solid #0164f7;
         border-radius: 1em;
         color: white;
-        margin-right: auto;
     }
 
     .filters
     {
-        width: 300px;
         height: 200px;
         display: block;
         margin-left: 40px;
@@ -1521,14 +1481,14 @@
 
     .input-filter-eco
     {
-        inline-size: 12em;
+        width: 12em;
         font-size: 14px;
     }
 
     .input-filter-eco:hover 
     {
         background-color: #DEEBFF;
-        inline-size: 12.5em;
+        width: 12.5em;
         transition: 0.5s;
     }
 
@@ -1537,21 +1497,18 @@
         margin-left: 40px;
         margin-bottom: 25px;
         position: absolute;
-        top: 431px;
-        right: 160px;
-        left: 190px;
     }
 
     .input-filter-family
     {
-        inline-size: 9em;
+        width: 9em;
         font-size: 14px;
     }
 
     .input-filter-family:hover 
     {
         background-color: #DEEBFF;
-        inline-size: 9.5em;
+        width: 9.5em;
         transition: 0.5s;
     }
 
@@ -1568,14 +1525,14 @@
 
     .input-filter-romance
     {
-        inline-size: 11em;
+        width: 11em;
         font-size: 14px;
     }
 
     .input-filter-romance:hover 
     {
         background-color: #DEEBFF;
-        inline-size: 11.8em;
+        width: 11.8em;
         transition: 0.5s;
     }
 
@@ -1587,20 +1544,19 @@
 
     .input-filter-animal
     {
-        inline-size: 14em;
+        width: 14em;
         font-size: 14px;
     }
 
     .input-filter-animal:hover 
     {
         background-color: #DEEBFF;
-        inline-size: 15em;
+        width: 15em;
         transition: 0.5s;
     }
 
     .information_bubble
     {
-        width: 310px;
         height: 20px;
         margin-left: 40px;
         margin-bottom: 50px;
@@ -1614,12 +1570,11 @@
         padding: 2px;
         padding-top: 4px;
         margin-left: 0px;
-        inline-size: 2.2em;
+        width: 2.2em;
     }
 
     .info_text
     {
-        width: 400px;
         font-size: 16px;
         font-weight: normal;
     }
@@ -1631,17 +1586,10 @@
     }
     
     .most_popular_part
-    {
-        margin: auto;
-        width: 480px;
+{
         border-radius: 0em;
         padding-left: 0px;
         padding-right: 0px;
-    }
-
-    .accom_popular_cards
-    {
-        width: 420px;
     }
 
     .chart-icon 
@@ -1664,13 +1612,12 @@
     .first_title_popular 
     {
         font-size: 19px;
-        width: 200px;
+        width: 50%;
     }
 
     .accom_part
     {
-        width: 435px;
-        background-color: white;
+        background-color: rgb(248, 245, 245);
         margin-left: 0px;
         padding-right: 20px;
         padding-left: 20px;
@@ -1685,11 +1632,10 @@
     .accom_cards
     {
         margin-left: 10px;
-        inline-size: 405px;
     }
 
     .accom_picture
-    {   width: 405px;
+    {   
         height: 150px;
         object-fit: cover;
     }
@@ -1726,22 +1672,18 @@
 
     .activity_part
     {
-        height: 1400px;
         display: flex;
         flex-direction: column;
     }
 
     .activity_picture
     {
-       width: auto;
-       height: 170px;
        object-fit: cover;
     }
 
     .activity_cards1
     {
        margin-left: 10px;
-       inline-size: 400px;
        height: 215px;
        margin-bottom: 20px;
     }
@@ -1754,7 +1696,7 @@
     .activity_cards2
     {
        margin-left: 10px;
-       inline-size: 400px;
+       width: 95%;
        height: 215px;
     }
 
@@ -1769,7 +1711,6 @@
         top: 20px;
         margin-left: 10px;
         margin-bottom: 40px;
-        inline-size: 400px;
         height: 215px;
     }
 
@@ -1781,7 +1722,6 @@
     .activity_cards4
     {
         height: 215px;
-        width: 400px;
         margin-left: 10px;
     }
 
@@ -1796,7 +1736,6 @@
        margin-top: 20px;
        margin-bottom: 20px;
        height: 215px;
-       width: 400px;
     }
 
     .href_cards5
@@ -1806,12 +1745,11 @@
 
     .activity_cards6
     {
-        position: relative;
+
         top: 0;
         left: 0;
         margin-left: 10px;
         height: 215px;
-        width: 400px;
         margin-top: 0px;
     }
 
@@ -1822,9 +1760,6 @@
 
     .page_footer
     {
-        width: 200px;
-        height: 530px;
-        min-width: 478px;
         flex-direction: column;
     }
 
@@ -1842,7 +1777,6 @@
     .option_footer
     {
         font-size: 16px;
-        font-weight: 450;
     }
 
     .footer_nav2
