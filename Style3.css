@@ -328,7 +328,7 @@
     font-family: "Raleway";
     font-weight: bold;
     text-align: center;
-    padding-right: 10x;
+    padding-right: 10px;
     margin-left: -10px;
     border-radius: 2.5em;
     width: 11em;
@@ -345,7 +345,7 @@
     font-family: "Raleway";
     font-weight: bold;
     text-align: center;
-    padding-right: 10x;
+    padding-right: 10px;
     margin-left: -10px;
     border-radius: 2.5em;
     width: 8em;
@@ -362,7 +362,7 @@
     font-family: "Raleway";
     font-weight: bold;
     text-align: center;
-    padding-right: 10x;
+    padding-right: 10px;
     margin-left: -10px;
     border-radius: 2.5em;
     border-width: 2px;
@@ -379,7 +379,7 @@
     font-family: "Raleway";
     font-weight: bold;
     text-align: center;
-    padding-right: 10x;
+    padding-right: 10px;
     margin-left: -10px;
     border-radius: 2.5em;
     width: 13em;
@@ -924,7 +924,6 @@
 .page_footer h2
 {
     font-size: 18px;
-    font-style: bolder;
     margin-top: 40px;
 }
 
@@ -959,7 +958,7 @@
 
 /*--- Tablette ---*/
 
-@media screen and (max-device-width: 768px)
+@media screen and (max-width: 768px)
 {
     
     body
@@ -1323,7 +1322,7 @@
 
 /*--- Mobile ---*/
 
-@media screen and (max-device-width: 480px) 
+@media screen and (max-width: 480px) 
 {
 
     body
@@ -1459,7 +1458,7 @@
     .map-icon
     {
         height: 24px;
-        padding-left: -17px;
+        padding-left: 17px;
         padding-top: 15px;
         margin-right: 10px;
         border-bottom-left-radius: 0.7em;
@@ -1837,7 +1836,6 @@
     .option_footer
     {
         font-size: 16px;
-        font-weight: 450;
     }
 
     .footer_nav2
