@@ -1472,8 +1472,6 @@
   padding-left: 40px;
   padding-right: 20px;
   padding-bottom: 15px;
-  height: 100%;
-  width: 100%
 }
 
 .accom_picture
@@ -1559,8 +1557,7 @@
     border-radius: 1.5em;
     padding: 10px;
     margin-left: 20px;
-    height: 100%;
-    width: 100%;
+    width: 30%;
 }
 
 .accom_popular_cards
@@ -1900,14 +1897,12 @@
 
 /*--- Tablette ---*/
 
-/*--- Tablette ---*/
-
 @media screen and (max-width: 768px)
 {
     
     body
     {
-        width: 100%;
+        width: auto;
         margin: auto;
     }
 
@@ -2263,7 +2258,7 @@
 
     body
     {
-        width: auto;
+        width: 480px;
     }
 
     .bloc_page
