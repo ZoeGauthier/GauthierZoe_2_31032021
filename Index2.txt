@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
-    <title>Reservia | Site de réservation</title>
-    <meta charset="UTF-8">
+    <title>Reservia</title>
+    <link rel="stylesheet" type="text/css" href="style4.css">
+    <script src="https://kit.fontawesome.com/15bab5c0ba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;800&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/0c296bf8fd.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <div class="container">
         <header class="header"> <!--En tete -->
             <div id="secnav">
                 <div class="logo">
-                    <a href="*" title="Accueil"><img src="P2/images/logo/Reservia3x.png" alt="Logo Réservia" class="logo" /></a>
+                    <a href="*" title="Accueil"><img src="P2/images/logo/Reservia@3x.png" alt="Logo Réservia" class="logo" /></a>
                 </div>
                 <div class="nav navHebergements"><a href="#Hebergements" class="nav1" >Hébergements</a></div>
-                <div class="nav navActivites"><a href="#Activités" class="nav2">Activités</a></div>
+                <div class="nav navAtivités"><a href="#Activités" class="nav2">Activités</a></div>
                 <div class="nav navInscription"><strong><a href="*" class="nav3" target="blank" title="Préparez vos valises !">S'inscrire</a></strong></div>
             </div>    
             <h1 class="PremierTitre">Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -266,13 +266,13 @@
                 <article class="petitephoto">
                     <div id="Fort1">
                         <a href="#">
-                            <div><img src="P2/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" class="fort-de-pomegues"></div>
+                            <div><img src="P2/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues" class="Fort-de-Pomègues"></div>
                             <h4 class="marge">Fort de Pomègues</h4>
                         </a>
                     </div>
-                    <div id="iles1">
+                    <div id="Îles1">
                         <a href="#">
-                            <div><img src="P2/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul" class="iles-du-frioul"></div>
+                            <div><img src="P2/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul" class="Îles-du-Frioul"></div>
                             <h4 class="marge">Îles du Frioul</h4>
                         </a>
                     </div>
