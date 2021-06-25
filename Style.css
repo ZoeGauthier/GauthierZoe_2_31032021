@@ -2,17 +2,17 @@
 
 @font-face {
     font-family: "Raleway";
-    src: url("images/police/Raleway-Medium.ttf");
+    src: url("P2/images/police/Raleway-Medium.ttf");
   }
   
   @font-face {
     font-family: "Raleway-Thin";
-    src: url("images/police/Raleway-Thin.ttf");
+    src: url("P2/images/police/Raleway-Thin.ttf");
   }
   
   @font-face {
     font-family: "Raleway-Bold";
-    src: url("images/police/Raleway-Bold.ttf");
+    src: url("P2/images/police/Raleway-Bold.ttf");
   }
 
 body
@@ -840,6 +840,7 @@ body
     {
         max-width: 1024px;
     }
+
     #principale {
         display: flex;
         justify-content: space-around;
