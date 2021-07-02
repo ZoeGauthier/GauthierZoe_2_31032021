@@ -376,6 +376,7 @@ body
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+    margin-right : 3px;
 }
 .populairestext
 {
@@ -736,7 +737,7 @@ body
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 100%;
+        width: 97%;
     }
     #test{
         display: flex;
@@ -893,6 +894,7 @@ body
     {
         margin-bottom: 50px;
         width: 96%;
+        margin-right: 7px;
     }
 
     #Activites 
