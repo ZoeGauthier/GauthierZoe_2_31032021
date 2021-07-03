@@ -180,7 +180,7 @@ body
     color:#0065FC;
     text-decoration: none;
     border-top: solid 3px #0065FC;
-    padding-top: 25px;
+    padding-top: none;
 }
 .nav3
 {
@@ -621,33 +621,55 @@ body
     }
     .nav1
     {
-        border-top: none;
         padding-top: 0em;
         margin-bottom: 10px;
-        color: #0065FC;
+        margin-left: 40px;
+        border-top: none;
     }
     .nav2
     {
         padding-top: 0em;
+        margin-left: 25px;
     } 
     .nav3
     {
         margin-right: 20px;
         padding-top: 35px;
     }
+    .nav1:hover, .nav2:hover
+    {
+        display: flex;
+        color:#0065FC;
+        text-decoration: none;
+        border-top: none;
+    }
     .navHebergements
     {
         order: 2;
         border-bottom: solid 3px #F2F2F2;
-        border-bottom: solid 3px #0065FC;
         width: 50%;
-    
     }
+    .navHebergements:hover
+    {
+        display: flex;
+        color:#0065FC;
+        text-decoration: none;
+        border-bottom: solid 3px #0065FC;
+    }
+
     .navActivites
     {
       order: 3;
       border-bottom: solid 3px #F2F2F2;
       width: 50%;
+      
+    }
+    .navActivites:hover
+    {
+        display: flex;
+        color:#0065FC;
+        text-decoration: none;
+        border-bottom: solid 3px #0065FC;
     }
     .navInscription
     {
@@ -658,16 +680,16 @@ body
       font-weight: 800;
       font-size: 1.2em;
       margin-top: 25px;
-      margin-left: 10px;
-      text-align: center;
+      margin-left: 22px;
+      text-align: left;
     }
     .choix
     {
         font-weight: 100;
         font-size: 0.9em;
         margin-top: 10px;
-        margin-left: 10px;
-        text-align: center;
+        margin-left: 23px;
+        text-align: left;
       }
 
     /*recherche*/
@@ -869,6 +891,13 @@ body
     #container
     {
         max-width: 1024px;
+    }
+    .nav1:hover, .nav2:hover
+    {
+    display: flex;
+    color:#0065FC;
+    text-decoration: none;
+    border-top: solid 3px #0065FC;
     }
 
     #principale {
